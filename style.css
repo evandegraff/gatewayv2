@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container logo text h2{
+font-size: 60px
+}
+
+.hero {
+  background-image: url(bakeryhero_1.avif);
+    width: 100%;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text h1 {
+border-style: dashed; 
+  border-bottom-style: solid;
+  border-bottom-color: black;
+ 
+  border-width: 5px;
+  border-color: black; 
+  background-color: white;
+  border-radius: 20px;
+ 
+  font-family: arial; color: black;
+  margin-top: 500px;
+  font-size: 100px;
+  text-align: center;
+}
+
+/*button options for the nnav bar */ 
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+/* sets the nav bar menu */ 
+.nav-container {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.link ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.link ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.link ul li a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+/* CONTACT PAGE */
+
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #000000;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* menu */ 
+.nav-menu{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between
+}
+
+/* product options  */ 
+.card {
+
+  
+  padding: 15px;
+ background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* footer */ 
+
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+  margin: auto;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.footer-container ul li {
+  padding: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.image-thumbnail {
+  width: 40px;
+}
+
+.image-thumbnail-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+}
